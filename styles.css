@@ -12,18 +12,18 @@ header .logo{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-header .a{
+header nav a{
     text-decoration: none;
     text-align: center;
+    color: black;
 }
 .menu{
     text-align: center;
     font-family: Just tell me what;
     font-size: 35px;
-    color: black;
     word-spacing: 12pt;
     line-height: 100px;
-    padding: 2rem 15rem;
+    padding: 2rem 14rem;
     display: block;
 }
 .menu_redes{
