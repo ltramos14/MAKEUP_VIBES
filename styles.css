@@ -12,10 +12,17 @@ header .logo{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+img.logoPagina{
+    width: 330px; 
+    height: 180px;
+}
 header nav a{
     text-decoration: none;
     text-align: center;
     color: black;
+}
+header nav a:hover {
+    color: white;
 }
 .menu{
     text-align: center;
@@ -31,4 +38,49 @@ header nav a{
     padding: 0rem 2rem;
     word-spacing: 8pt;
     margin-top: -40px;
+}
+
+.header2 {
+    position: fixed;
+    height: 80px;
+    padding: 2rem 1;
+}
+    
+.header2 .logo{
+    line-height: 30px;
+}
+
+.header2 .nav{
+    line-height: 100px;
+}
+
+.header2 .menu{
+    text-align: center;
+    font-family: Just tell me what;
+    font-size: 30px;
+    word-spacing: 20pt;
+    line-height: 60px;
+    padding: 1rem 14rem;
+}
+
+.header2 .logoPagina{
+    width: 210px;   
+    height: 110px;
+    padding-left: 70px;
+    margin-top: -10px;
+}
+
+.header2 .menu_redes{
+    float: right;
+    padding: 0rem 5rem;
+    word-spacing: 8pt;
+    margin-top: -70px;
+}
+
+.contenido {
+    padding-top: 150px;
+}
+
+@media screen (max-width: 950px) {
+
 }
