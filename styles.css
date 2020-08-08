@@ -142,6 +142,9 @@ footer{
     font-size: 18px;
     color: #707070;
 }
+p{
+    margin-top: 300px;
+}
 /*@media screen (max-width: 950px) {
 
 }*/
