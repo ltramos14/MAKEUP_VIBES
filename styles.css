@@ -2,7 +2,7 @@
 body .contenido{
     align-items: center;
     justify-content: center;  
-    padding: 20px;
+    padding: 15px;
 }
 header {
     width: 100%;
@@ -187,7 +187,7 @@ footer{
     overflow: hidden;
     cursor: pointer;
     background:rgba(255, 255,255, 0.5);
-    margin: 0 20px;
+    margin: 0 10px;
     text-align: center;
     transition: all 300ms;
 }
