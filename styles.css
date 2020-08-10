@@ -2,7 +2,6 @@
 body .contenido{
     align-items: center;
     justify-content: center;  
-    padding: 15px;
 }
 header {
     width: 100%;
@@ -147,7 +146,10 @@ footer{
     width: 100%;
     border-radius: 5px;
     overflow: hidden;
+    margin-left: 20px;
+    margin-right:60px;
 }
+
 .slide{
     display: flex;
     transform: translate3d(0,0,0);
@@ -159,6 +161,7 @@ footer{
     animation-iteration-count: infinite;
 }
 .item-slide{
+    padding-left: 18px;
     position: relative;
     display:flex;
     flex-direction: column;
@@ -181,8 +184,8 @@ footer{
     flex-direction: column;
     align-items: center;
     border: 3px solid #3B3B3B;
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     border-radius: 2px;
     overflow: hidden;
     cursor: pointer;
@@ -233,4 +236,7 @@ input[id="4"]:checked ~ .slide{
 }
 input[id="4"]:checked ~ .pagination .pagination-item[for="4"]{
     background: #E1C5C5;
+}
+@keyframes autoplay{
+    
 }
