@@ -1,5 +1,6 @@
 *{margin:0 ; padding: 0;}
 body .contenido{
+    text-align: center;
     align-items: center;
     justify-content: center;  
 }
@@ -155,7 +156,7 @@ footer{
     transform: translate3d(0,0,0);
     transition: all 600ms;
     animation-name: autoplay;
-    animation-duration: 6.5s;
+    animation-duration: 10s;
     animation-direction: alternate;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
@@ -180,6 +181,7 @@ footer{
     width: 100%;
 }
 .pagination-item{
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,5 +240,41 @@ input[id="4"]:checked ~ .pagination .pagination-item[for="4"]{
     background: #E1C5C5;
 }
 @keyframes autoplay{
+    25%{
+        transform: translate3d(calc(-100% * 0), 0, 0);
+    }
+    50%{
+        transform: translate3d(calc(-100% * 1), 0, 0);
+    }
+    75%{
+        transform: translate3d(calc(-100% * 2), 0, 0);
+    }
+    100%{
+        transform: translate3d(calc(-100% * 3), 0, 0);
+    }
+}
+h2{
+    padding-top: 80px;
+    display:inline-block;
+    position: relative;
+    color:#888787;
+    font-family: Just tell me what;
+    font-size: 70px;
+}
+h2::after, h2::before{
     
+    content:'';
+    position: absolute;
+    width:300px;
+    height:5px;
+    background-color:#888787;
+    top:0.6em;
+}
+h2::before{
+    top: 120px;
+    left:-320px;
+}
+h2::after{
+   top: 120px;
+    right: -320px;
 }
