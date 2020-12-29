@@ -9,24 +9,7 @@
     <title>INICIO - MAKEUP VIBES</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="../Images/Logo MakeUpVibes.png" class="logoPagina">
-        </div>
-        <nav class="menu">
-            <a href="../views/index.html">INICIO</a>
-            <a href="../views/stores.html">TIENDAS</a>
-            <a href="">CATEGORÍAS</a>
-            <a href="">MAKEUP-INSPIRATION</a>
-        </nav>
-        <input type="text">
-        <nav class="menu_redes">
-            <input type="image" name="facebook" id="btnFacebook" src="../Images/facebook.png" width="40px" height="40px">
-            <input type="image" name="instagram" id="btnInstagram" src="../Images/instagram.png" width="40px" height="40px">
-            <input type="image" name="pinterest" id="btnPinterest" src="../Images/pinterest.png" width="40px" height="40px">
-        </nav>
-    </header>
-
+    <?php  require '../partials/header.php' ?>
     <section class="contenido">
 
         <input type="radio" id="1" name="image-slide" hidden/> 

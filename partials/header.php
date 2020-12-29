@@ -1,29 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="../scripts/header.js"></script>
-    <title>TIENDAS - MAKEUP VIBES</title>
-</head>
-<body>
-    <header>
+<header>
         <div class="logo">
             <img src="../Images/Logo MakeUpVibes.png" class="logoPagina">
         </div>
         <nav class="menu">
-            <a href="../views/index.html">INICIO</a>
-            <a href="../views/stores.html">TIENDAS</a>
+            <a href="../views/index.php">INICIO</a>
+            <a href="../views/stores.php">TIENDAS</a>
             <a href="">CATEGORÍAS</a>
             <a href="">MAKEUP-INSPIRATION</a>
         </nav>
         <nav class="menu_redes">
+            <a class="" href="login/login.php">INICIAR SESIÓN</a><!--Faltan los estilos de este botón-->
             <input type="image" name="facebook" id="btnFacebook" src="../Images/facebook.png" width="40px" height="40px">
             <input type="image" name="instagram" id="btnInstagram" src="../Images/instagram.png" width="40px" height="40px">
             <input type="image" name="pinterest" id="btnPinterest" src="../Images/pinterest.png" width="40px" height="40px">
-        </nav>
-    </header>
-</body>
-</html>
+        </nav>  
+</header>
