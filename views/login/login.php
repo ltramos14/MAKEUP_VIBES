@@ -7,10 +7,16 @@
     <title>INICIAR SESION - MAKEUP VIBES</title>
 </head>
 <body>
+    <h1 class="loginCuenta">INICIAR SESIÓN EN MAKE UP VIBES</h1>
     <form action="login.php" method="post">
-        <input type="email" name="email" placeholder="Ingrese su correo">
-        <input type="password" name="password" placeholder="Ingrese su contraseña">
+        <input type="email" name="correo" placeholder="Ingrese su correo">
+        <input type="password" name="contraseña" placeholder="Ingrese su contraseña">
         <input type="submit" value="INGRESAR">
     </form>
+    <a href="signup.php">¿Ya tienes una cuenta? Inicia sesión</a>
 </body>
 </html>
+<?php
+    require '../../database/database.php';
+
+?>
